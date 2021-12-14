@@ -20,6 +20,15 @@
                 close()
             }
         }
+        function clickmeinstead()
+        {
+            var something = prompt("Type Anything And Open 'Inspect Element.'")
+            console.log(something)
+            open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            alert("You Fell For It.")
+            close()
+        }
     </script>
     <button onclick="pressed()">Don't Click Me!</button>
+    <button onclick="clickmeinstead()">Click Me Instead!</button>
 </body>
